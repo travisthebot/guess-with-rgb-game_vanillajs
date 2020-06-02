@@ -1,0 +1,130 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-top: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.7s;
+	-webkit-transition: background 0.7s;
+	-moz-transition: background 0.7s;
+}
+
+#container {
+	padding-top: 10%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	background: pink;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: #232323;
+	background: pink;
+}
+
+button {
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: pink;
+	letter-spacing: 2px;
+	font-size: inherit;
+	outline: none;
+	transition: background 0.7s;
+	-webkit-transition: background 0.7s;
+	-moz-transition: background 0.7s;
+}
+
+button:hover {
+	color: #232323;
+	background: pink;
+}
+
+#colourDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-family: "Montserrat", "Avenir";
+	font-weight: bold;
+}
+
+.square:nth-of-type(1) {
+	border-radius: 50%;
+}
+
+.square:nth-of-type(2) {
+	border-top-left-radius: 50%;
+}
+
+.square:nth-of-type(3) {
+	border-top-right-radius: 50%;
+}
+
+.square:nth-of-type(4) {
+	border-bottom-left-radius: 50%;
+}
+
+.square:nth-of-type(5) {
+	border-bottom-right-radius: 50%;
+}
+
+.square:nth-of-type(6) {
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+.square:nth-of-type(7) {
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+}
+
+.square:nth-of-type(8) {
+	border-bottom-right-radius: 70%;
+	border-top-left-radius: 70%;
+}
+
+.square:nth-of-type(9) {
+	border-bottom-left-radius: 70%;
+	border-top-right-radius: 70%;
+}
+
+.square:nth-of-type(10) {
+	border-top-right-radius: 97%;
+	border-top-left-radius: 28%;
+}
+
+.square:nth-of-type(11) {
+	border-bottom-left-radius: 97%;
+}
+
+.square:nth-of-type(12) {
+	border-top-left-radius: 97%;
+}
