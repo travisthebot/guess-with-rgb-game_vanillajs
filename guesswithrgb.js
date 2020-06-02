@@ -44,6 +44,7 @@ resetButton.addEventListener("click", function () {
 	pickedColour = pickColour();
 	colourDisplay.textContent = pickedColour;
 	messageDisplay.textContent = " ";
+	h1Display.style.background = "pink";
 	this.textContent = "Reset Colours";
 	for (let i = 0; i < squares.length; i++) {
 		squares[i].style.backgroundColor = colours[i];
